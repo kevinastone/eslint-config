@@ -22,6 +22,12 @@ module.exports = {
     jest: true,
   },
   rules: {
+    '@typescript-eslint/explicit-function-return-type': [
+      'warn',
+      {
+        allowExpressions: true,
+      },
+    ],
     '@typescript-eslint/no-throw-literal': 'off',
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-use-before-define': [

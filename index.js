@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./shared'],
+  extends: ['./shared', './react'],
 };

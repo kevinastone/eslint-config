@@ -1,6 +1,6 @@
 {
   "name": "@kevinastone/eslint-config",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -33,6 +33,8 @@
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jest": "^23.1.1",
     "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
     "eslint-plugin-unicorn": "^18.0.1",
     "typescript": "^3.8"
   },
