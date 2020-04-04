@@ -2,7 +2,7 @@ module.exports = {
   parserOptions: {
     project: './tsconfig.json',
   },
-  plugins: ['jest', 'unicorn'],
+  plugins: ['@typescript-eslint', 'jest', 'unicorn'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -22,11 +22,15 @@ module.exports = {
     jest: true,
   },
   rules: {
+    '@typescript-eslint/no-throw-literal': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/no-use-before-define': [
       'error',
-      {functions: false, classes: true, variables: true, typedefs: true},
+      {functions: false, classes: false, variables: true, typedefs: true},
     ],
+    '@typescript-eslint/require-await': 'off',
     'eslint-comments/no-unused-disable': 'error',
+    'no-underscore-dangle': 'off',
     // Common abbreviations are known and readable
     'unicorn/prevent-abbreviations': 'off',
   },
