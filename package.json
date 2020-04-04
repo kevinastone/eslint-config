@@ -1,0 +1,46 @@
+{
+  "name": "@kevinastone/eslint-config",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "pnp-eslint": "./bin/pnp-eslint.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinastone/eslint-config.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinastone/eslint-config/issues"
+  },
+  "homepage": "https://github.com/kevinastone/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.1.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-unicorn": "^18.0.1",
+    "typescript": "^3.8"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.2"
+  }
+}
