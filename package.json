@@ -1,6 +1,6 @@
 {
   "name": "@kevinastone/eslint-config",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -45,7 +45,7 @@
     "typescript": "*"
   },
   "devDependencies": {
-    "prettier": "^3.3.3",
-    "@types/eslint__js": "^8.42.3"
+    "@types/eslint__js": "^8.42.3",
+    "prettier": "^3.3.3"
   }
 }
